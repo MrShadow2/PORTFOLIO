@@ -1,0 +1,98 @@
+@keyframes anione {
+    0%{
+        opacity: 0%;
+        border-radius: 70%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 90%;
+    }
+    
+  }
+
+
+
+.container1{
+    height: 410px;
+    width: 610px;
+    background-color: rgb(1, 38, 38);
+    border-radius: 24px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    opacity: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    padding: 20px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+      color: antiquewhite;
+      animation-name:anione ;  
+    animation-duration: 4s; 
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    box-shadow: 10px 10px 20px rgb(1, 30, 30);
+
+}
+.container1:hover{
+    color: aquamarine;
+    width: 600px;
+    height: 420px;
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+
+.img-c{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.text{
+    margin-top: 10px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    animation-name:anione ;  
+    animation-duration: 4s; 
+    /* animation-timing-function: linear; */
+    animation-delay: 0s;
+
+    
+
+}
+.text:hover{
+    color: aquamarine;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    justify-content: space-around;
+}
+.imgg1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    height: 30px;
+    width: 30px;
+}
+.ph{
+    align-items: center;
+    display: flex;
+
+}
+.con{
+    padding-top: 10px;
+}
