@@ -21,7 +21,7 @@ function  Footer() {
                 </a>
             </li>
             <li >
-            <a href='https://drive.google.com/file/d/16gAqV-BfGzAXRul1KGSoMrYzjhTaLezq/view'><img className='imgg' src={require('./cv.png')} /></a>
+            <a href='https://drive.google.com/file/d/16gAqV-BfGzAXRul1KGSoMrYzjhTaLezq/view'><img className='imgg' src={require('./Cvvv.png')} /></a>
             </li>
 
          </ul>
