@@ -5,7 +5,7 @@ function Container() {
     <div className='container1'>
         {/* <img src={process.env.PUBLIC_URL+"img.jpeg"} /> */}
         <div className='photo'>
-        <img src={require('./img.jpeg')} className='img-c' />
+        <img src={require('./phto.jpeg')} className='img-c' />
         <p>
             Hey <b>Arpan Pandey</b>,this side
         </p>
